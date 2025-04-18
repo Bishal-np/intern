@@ -316,16 +316,226 @@
     }
   }
 }
-.blog-section{
+.blog-section {
   background-color: var(--primary-color);
-  .blog-heading{
+  .blog-heading {
     text-align: center;
     padding: 20px;
     color: white;
   }
-  .blog-sub-heading{
+  .blog-sub-heading {
     text-align: center;
     padding: 10px;
     color: white;
+  }
+  .blog-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    .blog-card {
+      margin-bottom: 100px;
+      padding: 10px;
+      width: fit-content;
+
+      .service-description {
+        color: gray;
+        font-size: 12px;
+      }
+      .blogs-title {
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 400;
+        color: rgb(255, 255, 255);
+        &:hover {
+          text-decoration: underline;
+          cursor: pointer;
+        }
+      }
+      .read-post {
+        background-color: transparent;
+        color: red;
+        border: none;
+        padding-top: 10px;
+        font-weight: 500;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+.faq-section {
+  background-color: #f4f4f4;
+  .faq-heading {
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+  }
+  .faq-sub-heading {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgb(100, 100, 100);
+    text-align: center;
+    .faq-email {
+      color: red;
+    }
+  }
+  .faq-itms {
+    .right-items {
+      gap: 100px;
+      .contact-us {
+        background-color: white;
+        padding: 8px;
+        font-size: 13px;
+        color: red;
+        border: rgb(167, 164, 164) 1px solid;
+        border-radius: 5px;
+        font-weight: 500;
+        &:hover {
+          background-color: #f0bbbd;
+          border: 1.5px solid rgb(194, 21, 21);
+        }
+      }
+    }
+    .faq-section-bar {
+      .faq-bar {
+        margin-bottom: 10px;
+        .faq-question {
+          border: 1px solid rgb(210, 208, 208);
+          border-radius: 5px;
+          padding: 23px;
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 28px;
+          &:hover {
+            text-decoration: underline 2px;
+            cursor: pointer;
+          }
+          .faq-answer {
+            .faq-ans {
+              color: red;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.contact-department {
+  height: 300px;
+  .department-heading {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+  .departmanet-sub-heading {
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgb(100, 100, 100);
+    text-align: left;
+    padding-bottom: 13px;
+  }
+  .contact-card {
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 20px;
+      .department-card {
+        border: 1px solid rgb(222, 219, 219);
+        padding: 15px 25px;
+        border-radius: 15px;
+        background-color: #faf9fb;
+        .card-heading {
+          font-size: 18px;
+          line-height: 28px;
+          font-weight: 500;
+          color: rgb(0, 0, 0);
+        }
+        .department-contact {
+          font-size: 15px;
+          line-height: 24px;
+          font-weight: 400;
+          color: rgb(0, 0, 0);
+          margin-bottom: 0;
+          &:hover {
+            text-decoration: underline 1px;
+            cursor: pointer;
+          }
+        }
+        .department-email {
+          font-size: 15px;
+          line-height: 24px;
+          font-weight: 400;
+          color: rgb(0, 0, 0);
+          &:hover {
+            text-decoration: underline 1px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+.before-footer {
+  .flex-item {
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    .right-items {
+      .b-heading {
+        font-size: 30px;
+        font-weight: 700;
+      }
+      .s-heading{
+        font-size: 14px;
+        font-weight: 18px;
+        color: rgb(100,100,100);
+      }
+      .play-btn {
+        .btn {
+          display: flex;
+          gap: 11px;
+          background-color: #17171f;
+          width: fit-content;
+          padding: 10px 16px;
+          padding-bottom: 9px;
+          border-radius: 10px;
+          .play-icon {
+            i {
+              font-size: 30px;
+              color: white;
+            }
+          }
+          .btn-details {
+            .ft {
+              color: rgb(232, 229, 229);
+              margin-bottom: 0;
+              font-size: 11px;
+              line-height: 16px;
+              font-weight: 400;
+              text-align: left;
+            }
+            .st {
+              color: white;
+              margin-bottom: 0;
+              font-size: 18px;
+              font-weight: 500;
+              line-height: 28px;
+              text-align: left;
+            }
+          }
+        }
+      }
+    }
   }
 }

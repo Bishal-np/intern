@@ -8,6 +8,8 @@ import "../src/scss/base/common.scss"
 import "../src/scss/base/variable.scss"
 import "../src/scss/pages/home.scss"
 
+
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />

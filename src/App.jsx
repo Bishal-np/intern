@@ -5,6 +5,11 @@ import Subbanner from './Componant/home/Subbanner'
 import Internship from './Componant/home/Internship'
 import Dreamjobs from './Componant/home/Dreamjobs'
 import Blogs from './Componant/home/Blogs'
+import Faq from './Componant/home/Faq'
+import Contactdepartment from './Componant/home/Contactdepartment'
+import Beforefooter from './Componant/home/Beforefooter'
+import Footer from './Componant/layouts/Footer'
+
 
 
 
@@ -17,6 +22,10 @@ function App() {
     <Internship />
     <Dreamjobs />
     <Blogs />
+    <Faq />
+    <Contactdepartment />
+    <Beforefooter />
+    <Footer />
    </>
   )
 }
