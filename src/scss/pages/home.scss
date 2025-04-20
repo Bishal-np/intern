@@ -245,6 +245,69 @@
     }
   }
 }
+.tab-section-2 {
+  .grid-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    .card {
+      &:hover{
+        
+        cursor: pointer;
+      }
+      img {
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+      }
+      .card-details {
+        .card-heading {
+          font-size: 20px;
+          line-height: 28px;
+          color: rgb(32, 32, 32);
+          margin-top: 10px;
+          font-weight: 600;
+          margin-bottom: 0;
+        }
+        .card-sub {
+          font-size: 13px;
+          font-weight: 400;
+          line-height: 28px;
+          color: rgb(217, 61, 66);
+          text-transform: uppercase;
+          margin-bottom: 0;
+        }
+        .card-sub-sub {
+          font-size: 15px;
+          line-height: 23px;
+          font-weight: 400;
+          color: rgb(100, 100, 100);
+        }
+        .card-buttons {
+          display: flex;
+          gap: 10px;
+          margin-bottom: 20px;
+          a {
+            padding: 8px 10px;
+
+            font-size: 10px;
+            border-radius: 8px;
+            background-color: #f4f2f6;
+          }
+        }
+        .apply-now {
+          color: rgb(239, 68, 68);
+          font-size: 13px;
+          line-height: 20px;
+          font-weight: 600;
+          &:hover{
+            text-decoration: underline 1px;
+          }
+        }
+      }
+    }
+  }
+}
 .dream-tab {
   background-color: #faf9fb;
   .tab-content {
@@ -496,10 +559,10 @@
         font-size: 30px;
         font-weight: 700;
       }
-      .s-heading{
+      .s-heading {
         font-size: 14px;
         font-weight: 18px;
-        color: rgb(100,100,100);
+        color: rgb(100, 100, 100);
       }
       .play-btn {
         .btn {
