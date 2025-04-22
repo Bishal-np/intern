@@ -8,7 +8,7 @@ function Login() {
   return (
     <>
       <Header />
-      <section>
+      <section className='form-100'>
         <div className="container">
           <form action="" className='login-form'>
 
