@@ -70,213 +70,424 @@ function Internship() {
                             </div>
 
                         </div>
-                        <div className="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...</div>
-                        <div className="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
-                        <div className="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...</div>
+                        <div className="tab-pane-1 fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                            <div className="row gy-4">
+                                <div className="col-lg-12  col-sm-6 mb-4 grid-card">
+                                    <div className="card p-3">
+                                        <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1744441026171-838505274.jpg&w=256&q=75" alt="" />
+                                        <div className="card-details">
+                                            <h2 className="card-heading">Digital media officer</h2>
+                                            <p className="card-sub">cn brothers international pvt.ltd</p>
+                                            <p className="card-sub-sub">C.N. Brothers International Pvt. Ltd., a B2B company..</p>
+                                            <div className="card-buttons">
+                                                <a href=""><i class="bi bi-clock"></i> 7 Days Left</a>
+                                                <a href=""><i class="bi bi-geo-alt-fill"></i> Kathmandu</a>
+                                                <a href=""><i class="bi bi-backpack4"></i> Full Time</a>
+                                            </div>
+                                            <a href="" className='apply-now'>Apply Now <i class="bi bi-arrow-right"></i> </a>
+                                        </div>
+                                    </div>
+                                    <div className="card p-3">
+                                        <div className="image">
+                                            <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1701768556031-820006917.png&w=256&q=75" alt="" />
+                                        </div>
+                                        <div className="card-details">
+                                            <h2 className="card-heading">Digital media officer</h2>
+                                            <p className="card-sub">cn brothers international pvt.ltd</p>
+                                            <p className="card-sub-sub">C.N. Brothers International Pvt. Ltd., a B2B company..</p>
+                                            <div className="card-buttons">
+                                                <a href=""><i class="bi bi-clock"></i> 7 Days Left</a>
+                                                <a href=""><i class="bi bi-geo-alt-fill"></i> Kathmandu</a>
+                                                <a href=""><i class="bi bi-backpack4"></i> Full Time</a>
+                                            </div>
+                                            <a href="" className='apply-now'>Apply Now <i class="bi bi-arrow-right"></i> </a>
+                                        </div>
+                                    </div>
+                                    <div className="card p-3">
+                                        <div className="image">
+                                            <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1744441026171-838505274.jpg&w=256&q=75" alt="" />
+                                        </div>
+                                        <div className="card-details">
+                                            <h2 className="card-heading">Digital media officer</h2>
+                                            <p className="card-sub">cn brothers international pvt.ltd</p>
+                                            <p className="card-sub-sub">C.N. Brothers International Pvt. Ltd., a B2B company..</p>
+                                            <div className="card-buttons">
+                                                <a href=""><i class="bi bi-clock"></i> 7 Days Left</a>
+                                                <a href=""><i class="bi bi-geo-alt-fill"></i> Kathmandu</a>
+                                                <a href=""><i class="bi bi-backpack4"></i> Full Time</a>
+                                            </div>
+                                            <a href="" className='apply-now'>Apply Now <i class="bi bi-arrow-right"></i> </a>
+                                        </div>
+                                    </div>
+                                    <div className="card p-3">
+                                        <div className="image">
+                                            <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1744441026171-838505274.jpg&w=256&q=75" alt="" />
+                                        </div>
+                                        <div className="card-details">
+                                            <h2 className="card-heading">Digital media officer</h2>
+                                            <p className="card-sub">cn brothers international pvt.ltd</p>
+                                            <p className="card-sub-sub">C.N. Brothers International Pvt. Ltd., a B2B company..</p>
+                                            <div className="card-buttons">
+                                                <a href=""><i class="bi bi-clock"></i> 7 Days Left</a>
+                                                <a href=""><i class="bi bi-geo-alt-fill"></i> Kathmandu</a>
+                                                <a href=""><i class="bi bi-backpack4"></i> Full Time</a>
+                                            </div>
+                                            <a href="" className='apply-now'>Apply Now <i class="bi bi-arrow-right"></i> </a>
+                                        </div>
+                                    </div>
+                                    <div className="card p-3">
+                                        <div className="image">
+                                            <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1744441026171-838505274.jpg&w=256&q=75" alt="" />
+                                        </div>
+                                        <div className="card-details">
+                                            <h2 className="card-heading">Digital media officer</h2>
+                                            <p className="card-sub">cn brothers international pvt.ltd</p>
+                                            <p className="card-sub-sub">C.N. Brothers International Pvt. Ltd., a B2B company..</p>
+                                            <div className="card-buttons">
+                                                <a href=""><i class="bi bi-clock"></i> 7 Days Left</a>
+                                                <a href=""><i class="bi bi-geo-alt-fill"></i> Kathmandu</a>
+                                                <a href=""><i class="bi bi-backpack4"></i> Full Time</a>
+                                            </div>
+                                            <a href="" className='apply-now'>Apply Now <i class="bi bi-arrow-right"></i> </a>
+                                        </div>
+                                    </div>
+                                    <div className="card p-3">
+                                        <div className="image">
+                                            <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1744441026171-838505274.jpg&w=256&q=75" alt="" />
+                                        </div>
+                                        <div className="card-details">
+                                            <h2 className="card-heading">Digital media officer</h2>
+                                            <p className="card-sub">cn brothers international pvt.ltd</p>
+                                            <p className="card-sub-sub">C.N. Brothers International Pvt. Ltd., a B2B company..</p>
+                                            <div className="card-buttons">
+                                                <a href=""><i class="bi bi-clock"></i> 7 Days Left</a>
+                                                <a href=""><i class="bi bi-geo-alt-fill"></i> Kathmandu</a>
+                                                <a href=""><i class="bi bi-backpack4"></i> Full Time</a>
+                                            </div>
+                                            <a href="" className='apply-now'>Apply Now <i class="bi bi-arrow-right"></i> </a>
+                                        </div>
+                                    </div>
+                                    <div className="card p-3">
+                                        <div className="image">
+                                            <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1744441026171-838505274.jpg&w=256&q=75" alt="" />
+                                        </div>
+                                        <div className="card-details">
+                                            <h2 className="card-heading">Digital media officer</h2>
+                                            <p className="card-sub">cn brothers international pvt.ltd</p>
+                                            <p className="card-sub-sub">C.N. Brothers International Pvt. Ltd., a B2B company..</p>
+                                            <div className="card-buttons">
+                                                <a href=""><i class="bi bi-clock"></i> 7 Days Left</a>
+                                                <a href=""><i class="bi bi-geo-alt-fill"></i> Kathmandu</a>
+                                                <a href=""><i class="bi bi-backpack4"></i> Full Time</a>
+                                            </div>
+                                            <a href="" className='apply-now'>Apply Now <i class="bi bi-arrow-right"></i> </a>
+                                        </div>
+                                    </div>
+                                    <div className="card p-3">
+                                        <div className="image">
+                                            <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1744441026171-838505274.jpg&w=256&q=75" alt="" />
+                                        </div>
+                                        <div className="card-details">
+                                            <h2 className="card-heading">Digital media officer</h2>
+                                            <p className="card-sub">cn brothers international pvt.ltd</p>
+                                            <p className="card-sub-sub">C.N. Brothers International Pvt. Ltd., a B2B company..</p>
+                                            <div className="card-buttons">
+                                                <a href=""><i class="bi bi-clock"></i> 7 Days Left</a>
+                                                <a href=""><i class="bi bi-geo-alt-fill"></i> Kathmandu</a>
+                                                <a href=""><i class="bi bi-backpack4"></i> Full Time</a>
+                                            </div>
+                                            <a href="" className='apply-now'>Apply Now <i class="bi bi-arrow-right"></i> </a>
+                                        </div>
+                                    </div>
+                                    <div className="card p-3">
+                                        <div className="image">
+                                            <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1744441026171-838505274.jpg&w=256&q=75" alt="" />
+                                        </div>
+                                        <div className="card-details">
+                                            <h2 className="card-heading">Digital media officer</h2>
+                                            <p className="card-sub">cn brothers international pvt.ltd</p>
+                                            <p className="card-sub-sub">C.N. Brothers International Pvt. Ltd., a B2B company..</p>
+                                            <div className="card-buttons">
+                                                <a href=""><i class="bi bi-clock"></i> 7 Days Left</a>
+                                                <a href=""><i class="bi bi-geo-alt-fill"></i> Kathmandu</a>
+                                                <a href=""><i class="bi bi-backpack4"></i> Full Time</a>
+                                            </div>
+                                            <a href="" className='apply-now'>Apply Now <i class="bi bi-arrow-right"></i> </a>
+                                        </div>
+                                    </div>
+                                    <div className="card p-3">
+                                        <div className="image">
+                                            <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1744441026171-838505274.jpg&w=256&q=75" alt="" />
+                                        </div>
+                                        <div className="card-details">
+                                            <h2 className="card-heading">Digital media officer</h2>
+                                            <p className="card-sub">cn brothers international pvt.ltd</p>
+                                            <p className="card-sub-sub">C.N. Brothers International Pvt. Ltd., a B2B company..</p>
+                                            <div className="card-buttons">
+                                                <a href=""><i class="bi bi-clock"></i> 7 Days Left</a>
+                                                <a href=""><i class="bi bi-geo-alt-fill"></i> Kathmandu</a>
+                                                <a href=""><i class="bi bi-backpack4"></i> Full Time</a>
+                                            </div>
+                                            <a href="" className='apply-now'>Apply Now <i class="bi bi-arrow-right"></i> </a>
+                                        </div>
+                                    </div>
+                                    <div className="card p-3">
+                                        <div className="image">
+                                            <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1744441026171-838505274.jpg&w=256&q=75" alt="" />
+                                        </div>
+                                        <div className="card-details">
+                                            <h2 className="card-heading">Digital media officer</h2>
+                                            <p className="card-sub">cn brothers international pvt.ltd</p>
+                                            <p className="card-sub-sub">C.N. Brothers International Pvt. Ltd., a B2B company..</p>
+                                            <div className="card-buttons">
+                                                <a href=""><i class="bi bi-clock"></i> 7 Days Left</a>
+                                                <a href=""><i class="bi bi-geo-alt-fill"></i> Kathmandu</a>
+                                                <a href=""><i class="bi bi-backpack4"></i> Full Time</a>
+                                            </div>
+                                            <a href="" className='apply-now'>Apply Now <i class="bi bi-arrow-right"></i> </a>
+                                        </div>
+                                    </div>
+                                    <div className="card p-3">
+                                        <div className="image">
+                                            <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1744441026171-838505274.jpg&w=256&q=75" alt="" />
+                                        </div>
+                                        <div className="card-details">
+                                            <h2 className="card-heading">Digital media officer</h2>
+                                            <p className="card-sub">cn brothers international pvt.ltd</p>
+                                            <p className="card-sub-sub">C.N. Brothers International Pvt. Ltd., a B2B company..</p>
+                                            <div className="card-buttons">
+                                                <a href=""><i class="bi bi-clock"></i> 7 Days Left</a>
+                                                <a href=""><i class="bi bi-geo-alt-fill"></i> Kathmandu</a>
+                                                <a href=""><i class="bi bi-backpack4"></i> Full Time</a>
+                                            </div>
+                                            <a href="" className='apply-now'>Apply Now <i class="bi bi-arrow-right"></i> </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
+                        <div className="tab-pane-2 fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                            <div className="row gy-5">
+                                <div className="col-lg- gird-card-2">
+                                    <div className="card-2 p-3">
+                                        <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1744441026171-838505274.jpg&w=256&q=75" alt="" />
+                                        <div className="card-details-2">
+                                            <h2 className="card-heading-2">Digital media officer</h2>
+                                            <p className="card-sub-2">cn brothers international pvt.ltd</p>
+                                            <p className="card-sub-sub-2">C.N. Brothers International Pvt. Ltd., a B2B company..</p>
+                                            <div className="card-buttons-2">
+                                                <a href=""><i class="bi bi-clock"></i> 7 Days Left</a>
+                                                <a href=""><i class="bi bi-geo-alt-fill"></i> Kathmandu</a>
+                                                <a href=""><i class="bi bi-backpack4"></i> Full Time</a>
+                                            </div>
+                                            <a href="" className='apply-now-2'>Apply Now <i class="bi bi-arrow-right"></i> </a>
+                                        </div>
+                                    </div>
+                                    <div className="card-2 p-3">
+                                        <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1744441026171-838505274.jpg&w=256&q=75" alt="" />
+                                        <div className="card-details-2">
+                                            <h2 className="card-heading-2">Digital media officer</h2>
+                                            <p className="card-sub-2">cn brothers international pvt.ltd</p>
+                                            <p className="card-sub-sub-2">C.N. Brothers International Pvt. Ltd., a B2B company..</p>
+                                            <div className="card-buttons-2">
+                                                <a href=""><i class="bi bi-clock"></i> 7 Days Left</a>
+                                                <a href=""><i class="bi bi-geo-alt-fill"></i> Kathmandu</a>
+                                                <a href=""><i class="bi bi-backpack4"></i> Full Time</a>
+                                            </div>
+                                            <a href="" className='apply-now-2'>Apply Now <i class="bi bi-arrow-right"></i> </a>
+                                        </div>
+                                    </div>
+                                    <div className="card-2 p-3">
+                                        <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1744441026171-838505274.jpg&w=256&q=75" alt="" />
+                                        <div className="card-details-2">
+                                            <h2 className="card-heading-2">Digital media officer</h2>
+                                            <p className="card-sub-2">cn brothers international pvt.ltd</p>
+                                            <p className="card-sub-sub-2">C.N. Brothers International Pvt. Ltd., a B2B company..</p>
+                                            <div className="card-buttons-2">
+                                                <a href=""><i class="bi bi-clock"></i> 7 Days Left</a>
+                                                <a href=""><i class="bi bi-geo-alt-fill"></i> Kathmandu</a>
+                                                <a href=""><i class="bi bi-backpack4"></i> Full Time</a>
+                                            </div>
+                                            <a href="" className='apply-now-2'>Apply Now <i class="bi bi-arrow-right"></i> </a>
+                                        </div>
+                                    </div>
+                                    <div className="card-2 p-3">
+                                        <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1744441026171-838505274.jpg&w=256&q=75" alt="" />
+                                        <div className="card-details-2">
+                                            <h2 className="card-heading-2">Digital media officer</h2>
+                                            <p className="card-sub-2">cn brothers international pvt.ltd</p>
+                                            <p className="card-sub-sub-2">C.N. Brothers International Pvt. Ltd., a B2B company..</p>
+                                            <div className="card-buttons-2">
+                                                <a href=""><i class="bi bi-clock"></i> 7 Days Left</a>
+                                                <a href=""><i class="bi bi-geo-alt-fill"></i> Kathmandu</a>
+                                                <a href=""><i class="bi bi-backpack4"></i> Full Time</a>
+                                            </div>
+                                            <a href="" className='apply-now-2'>Apply Now <i class="bi bi-arrow-right"></i> </a>
+                                        </div>
+                                    </div>
+                                    <div className="card-2 p-3">
+                                        <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1744441026171-838505274.jpg&w=256&q=75" alt="" />
+                                        <div className="card-details-2">
+                                            <h2 className="card-heading-2">Digital media officer</h2>
+                                            <p className="card-sub-2">cn brothers international pvt.ltd</p>
+                                            <p className="card-sub-sub-2">C.N. Brothers International Pvt. Ltd., a B2B company..</p>
+                                            <div className="card-buttons-2">
+                                                <a href=""><i class="bi bi-clock"></i> 7 Days Left</a>
+                                                <a href=""><i class="bi bi-geo-alt-fill"></i> Kathmandu</a>
+                                                <a href=""><i class="bi bi-backpack4"></i> Full Time</a>
+                                            </div>
+                                            <a href="" className='apply-now-2'>Apply Now <i class="bi bi-arrow-right"></i> </a>
+                                        </div>
+                                    </div>
+                                    <div className="card-2 p-3">
+                                        <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1744441026171-838505274.jpg&w=256&q=75" alt="" />
+                                        <div className="card-details-2">
+                                            <h2 className="card-heading-2">Digital media officer</h2>
+                                            <p className="card-sub-2">cn brothers international pvt.ltd</p>
+                                            <p className="card-sub-sub-2">C.N. Brothers International Pvt. Ltd., a B2B company..</p>
+                                            <div className="card-buttons-2">
+                                                <a href=""><i class="bi bi-clock"></i> 7 Days Left</a>
+                                                <a href=""><i class="bi bi-geo-alt-fill"></i> Kathmandu</a>
+                                                <a href=""><i class="bi bi-backpack4"></i> Full Time</a>
+                                            </div>
+                                            <a href="" className='apply-now-2'>Apply Now <i class="bi bi-arrow-right"></i> </a>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div className="tab-pane-3 fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">
+                        <div className="row gy-5">
+                                <div className="col-lg- gird-card-3">
+                                    <div className="card-3 p-3">
+                                        <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1744441026171-838505274.jpg&w=256&q=75" alt="" />
+                                        <div className="card-details-3">
+                                            <h2 className="card-heading-3">Digital media officer</h2>
+                                            <p className="card-sub-3">cn brothers international pvt.ltd</p>
+                                            <p className="card-sub-sub-3">C.N. Brothers International Pvt. Ltd., a B2B company..</p>
+                                            <div className="card-buttons-3">
+                                                <a href=""><i class="bi bi-clock"></i> 7 Days Left</a>
+                                                <a href=""><i class="bi bi-geo-alt-fill"></i> Kathmandu</a>
+                                                <a href=""><i class="bi bi-backpack4"></i> Full Time</a>
+                                            </div>
+                                            <a href="" className='apply-now-3'>Apply Now <i class="bi bi-arrow-right"></i> </a>
+                                        </div>
+                                    </div>
+                                    <div className="card-3 p-3">
+                                        <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1744441026171-838505274.jpg&w=256&q=75" alt="" />
+                                        <div className="card-details-3">
+                                            <h2 className="card-heading-3">Digital media officer</h2>
+                                            <p className="card-sub-3">cn brothers international pvt.ltd</p>
+                                            <p className="card-sub-sub-3">C.N. Brothers International Pvt. Ltd., a B2B company..</p>
+                                            <div className="card-buttons-3">
+                                                <a href=""><i class="bi bi-clock"></i> 7 Days Left</a>
+                                                <a href=""><i class="bi bi-geo-alt-fill"></i> Kathmandu</a>
+                                                <a href=""><i class="bi bi-backpack4"></i> Full Time</a>
+                                            </div>
+                                            <a href="" className='apply-now-3'>Apply Now <i class="bi bi-arrow-right"></i> </a>
+                                        </div>
+                                    </div>
+                                    <div className="card-3 p-3">
+                                        <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1744441026171-838505274.jpg&w=256&q=75" alt="" />
+                                        <div className="card-details-3">
+                                            <h2 className="card-heading-3">Digital media officer</h2>
+                                            <p className="card-sub-3">cn brothers international pvt.ltd</p>
+                                            <p className="card-sub-sub-3">C.N. Brothers International Pvt. Ltd., a B2B company..</p>
+                                            <div className="card-buttons-3">
+                                                <a href=""><i class="bi bi-clock"></i> 7 Days Left</a>
+                                                <a href=""><i class="bi bi-geo-alt-fill"></i> Kathmandu</a>
+                                                <a href=""><i class="bi bi-backpack4"></i> Full Time</a>
+                                            </div>
+                                            <a href="" className='apply-now-3'>Apply Now <i class="bi bi-arrow-right"></i> </a>
+                                        </div>
+                                    </div>
+                                    <div className="card-3 p-3">
+                                        <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1744441026171-838505274.jpg&w=256&q=75" alt="" />
+                                        <div className="card-details-3">
+                                            <h2 className="card-heading-3">Digital media officer</h2>
+                                            <p className="card-sub-3">cn brothers international pvt.ltd</p>
+                                            <p className="card-sub-sub-3">C.N. Brothers International Pvt. Ltd., a B2B company..</p>
+                                            <div className="card-buttons-3">
+                                                <a href=""><i class="bi bi-clock"></i> 7 Days Left</a>
+                                                <a href=""><i class="bi bi-geo-alt-fill"></i> Kathmandu</a>
+                                                <a href=""><i class="bi bi-backpack4"></i> Full Time</a>
+                                            </div>
+                                            <a href="" className='apply-now-3'>Apply Now <i class="bi bi-arrow-right"></i> </a>
+                                        </div>
+                                    </div>
+                                    <div className="card-3 p-3">
+                                        <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1744441026171-838505274.jpg&w=256&q=75" alt="" />
+                                        <div className="card-details-3">
+                                            <h2 className="card-heading-3">Digital media officer</h2>
+                                            <p className="card-sub-3">cn brothers international pvt.ltd</p>
+                                            <p className="card-sub-sub-3">C.N. Brothers International Pvt. Ltd., a B2B company..</p>
+                                            <div className="card-buttons-3">
+                                                <a href=""><i class="bi bi-clock"></i> 7 Days Left</a>
+                                                <a href=""><i class="bi bi-geo-alt-fill"></i> Kathmandu</a>
+                                                <a href=""><i class="bi bi-backpack4"></i> Full Time</a>
+                                            </div>
+                                            <a href="" className='apply-now-3'>Apply Now <i class="bi bi-arrow-right"></i> </a>
+                                        </div>
+                                    </div>
+                                    <div className="card-3 p-3">
+                                        <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1744441026171-838505274.jpg&w=256&q=75" alt="" />
+                                        <div className="card-details-3">
+                                            <h2 className="card-heading-3">Digital media officer</h2>
+                                            <p className="card-sub-3">cn brothers international pvt.ltd</p>
+                                            <p className="card-sub-sub-3">C.N. Brothers International Pvt. Ltd., a B2B company..</p>
+                                            <div className="card-buttons-3">
+                                                <a href=""><i class="bi bi-clock"></i> 7 Days Left</a>
+                                                <a href=""><i class="bi bi-geo-alt-fill"></i> Kathmandu</a>
+                                                <a href=""><i class="bi bi-backpack4"></i> Full Time</a>
+                                            </div>
+                                            <a href="" className='apply-now-3'>Apply Now <i class="bi bi-arrow-right"></i> </a>
+                                        </div>
+                                    </div>
+                                    <div className="card-3 p-3">
+                                        <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1744441026171-838505274.jpg&w=256&q=75" alt="" />
+                                        <div className="card-details-3">
+                                            <h2 className="card-heading-3">Digital media officer</h2>
+                                            <p className="card-sub-3">cn brothers international pvt.ltd</p>
+                                            <p className="card-sub-sub-3">C.N. Brothers International Pvt. Ltd., a B2B company..</p>
+                                            <div className="card-buttons-3">
+                                                <a href=""><i class="bi bi-clock"></i> 7 Days Left</a>
+                                                <a href=""><i class="bi bi-geo-alt-fill"></i> Kathmandu</a>
+                                                <a href=""><i class="bi bi-backpack4"></i> Full Time</a>
+                                            </div>
+                                            <a href="" className='apply-now-3'>Apply Now <i class="bi bi-arrow-right"></i> </a>
+                                        </div>
+                                    </div>
+                                    <div className="card-3 p-3">
+                                        <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1744441026171-838505274.jpg&w=256&q=75" alt="" />
+                                        <div className="card-details-3">
+                                            <h2 className="card-heading-3">Digital media officer</h2>
+                                            <p className="card-sub-3">cn brothers international pvt.ltd</p>
+                                            <p className="card-sub-sub-3">C.N. Brothers International Pvt. Ltd., a B2B company..</p>
+                                            <div className="card-buttons-3">
+                                                <a href=""><i class="bi bi-clock"></i> 7 Days Left</a>
+                                                <a href=""><i class="bi bi-geo-alt-fill"></i> Kathmandu</a>
+                                                <a href=""><i class="bi bi-backpack4"></i> Full Time</a>
+                                            </div>
+                                            <a href="" className='apply-now-3'>Apply Now <i class="bi bi-arrow-right"></i> </a>
+                                        </div>
+                                    </div>
+                                    
+                                    </div>
+                                    </div>
+                        </div>
                     </div>
                 </div>
 
             </section>
-            <section className="tab-section-2">
-                <div className="container">
-                    <div className="row gy-4">
-                        <div className="col-lg-12  col-sm-6 mb-4 grid-card">
-                            <div className="card p-3">
-                                <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1744441026171-838505274.jpg&w=256&q=75" alt="" />
-                                <div className="card-details">
-                                    <h2 className="card-heading">Digital media officer</h2>
-                                    <p className="card-sub">cn brothers international pvt.ltd</p>
-                                    <p className="card-sub-sub">C.N. Brothers International Pvt. Ltd., a B2B company..</p>
-                                    <div className="card-buttons">
-                                        <a href=""><i class="bi bi-clock"></i> 7 Days Left</a>
-                                        <a href=""><i class="bi bi-geo-alt-fill"></i> Kathmandu</a>
-                                        <a href=""><i class="bi bi-backpack4"></i> Full Time</a>
-                                    </div>
-                                    <a href="" className='apply-now'>Apply Now <i class="bi bi-arrow-right"></i> </a>
-                                </div>
-                            </div>
-                            <div className="card p-3">
-                                <div className="image">
-                                    <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1701768556031-820006917.png&w=256&q=75" alt="" />
-                                </div>
-                                <div className="card-details">
-                                    <h2 className="card-heading">Digital media officer</h2>
-                                    <p className="card-sub">cn brothers international pvt.ltd</p>
-                                    <p className="card-sub-sub">C.N. Brothers International Pvt. Ltd., a B2B company..</p>
-                                    <div className="card-buttons">
-                                        <a href=""><i class="bi bi-clock"></i> 7 Days Left</a>
-                                        <a href=""><i class="bi bi-geo-alt-fill"></i> Kathmandu</a>
-                                        <a href=""><i class="bi bi-backpack4"></i> Full Time</a>
-                                    </div>
-                                    <a href="" className='apply-now'>Apply Now <i class="bi bi-arrow-right"></i> </a>
-                                </div>
-                            </div>
-                            <div className="card p-3">
-                                <div className="image">
-                                    <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1744441026171-838505274.jpg&w=256&q=75" alt="" />
-                                </div>
-                                <div className="card-details">
-                                    <h2 className="card-heading">Digital media officer</h2>
-                                    <p className="card-sub">cn brothers international pvt.ltd</p>
-                                    <p className="card-sub-sub">C.N. Brothers International Pvt. Ltd., a B2B company..</p>
-                                    <div className="card-buttons">
-                                        <a href=""><i class="bi bi-clock"></i> 7 Days Left</a>
-                                        <a href=""><i class="bi bi-geo-alt-fill"></i> Kathmandu</a>
-                                        <a href=""><i class="bi bi-backpack4"></i> Full Time</a>
-                                    </div>
-                                    <a href=""  className='apply-now'>Apply Now <i class="bi bi-arrow-right"></i> </a>
-                                </div>
-                            </div>
-                            <div className="card p-3">
-                                <div className="image">
-                                    <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1744441026171-838505274.jpg&w=256&q=75" alt="" />
-                                </div>
-                                <div className="card-details">
-                                    <h2 className="card-heading">Digital media officer</h2>
-                                    <p className="card-sub">cn brothers international pvt.ltd</p>
-                                    <p className="card-sub-sub">C.N. Brothers International Pvt. Ltd., a B2B company..</p>
-                                    <div className="card-buttons">
-                                        <a href=""><i class="bi bi-clock"></i> 7 Days Left</a>
-                                        <a href=""><i class="bi bi-geo-alt-fill"></i> Kathmandu</a>
-                                        <a href=""><i class="bi bi-backpack4"></i> Full Time</a>
-                                    </div>
-                                    <a href=""  className='apply-now'>Apply Now <i class="bi bi-arrow-right"></i> </a>
-                                </div>
-                            </div>
-                            <div className="card p-3">
-                                <div className="image">
-                                    <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1744441026171-838505274.jpg&w=256&q=75" alt="" />
-                                </div>
-                                <div className="card-details">
-                                    <h2 className="card-heading">Digital media officer</h2>
-                                    <p className="card-sub">cn brothers international pvt.ltd</p>
-                                    <p className="card-sub-sub">C.N. Brothers International Pvt. Ltd., a B2B company..</p>
-                                    <div className="card-buttons">
-                                        <a href=""><i class="bi bi-clock"></i> 7 Days Left</a>
-                                        <a href=""><i class="bi bi-geo-alt-fill"></i> Kathmandu</a>
-                                        <a href=""><i class="bi bi-backpack4"></i> Full Time</a>
-                                    </div>
-                                    <a href=""  className='apply-now'>Apply Now <i class="bi bi-arrow-right"></i> </a>
-                                </div>
-                            </div>
-                            <div className="card p-3">
-                                <div className="image">
-                                    <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1744441026171-838505274.jpg&w=256&q=75" alt="" />
-                                </div>
-                                <div className="card-details">
-                                    <h2 className="card-heading">Digital media officer</h2>
-                                    <p className="card-sub">cn brothers international pvt.ltd</p>
-                                    <p className="card-sub-sub">C.N. Brothers International Pvt. Ltd., a B2B company..</p>
-                                    <div className="card-buttons">
-                                        <a href=""><i class="bi bi-clock"></i> 7 Days Left</a>
-                                        <a href=""><i class="bi bi-geo-alt-fill"></i> Kathmandu</a>
-                                        <a href=""><i class="bi bi-backpack4"></i> Full Time</a>
-                                    </div>
-                                    <a href=""  className='apply-now'>Apply Now <i class="bi bi-arrow-right"></i> </a>
-                                </div>
-                            </div>
-                            <div className="card p-3">
-                                <div className="image">
-                                    <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1744441026171-838505274.jpg&w=256&q=75" alt="" />
-                                </div>
-                                <div className="card-details">
-                                    <h2 className="card-heading">Digital media officer</h2>
-                                    <p className="card-sub">cn brothers international pvt.ltd</p>
-                                    <p className="card-sub-sub">C.N. Brothers International Pvt. Ltd., a B2B company..</p>
-                                    <div className="card-buttons">
-                                        <a href=""><i class="bi bi-clock"></i> 7 Days Left</a>
-                                        <a href=""><i class="bi bi-geo-alt-fill"></i> Kathmandu</a>
-                                        <a href=""><i class="bi bi-backpack4"></i> Full Time</a>
-                                    </div>
-                                    <a href=""  className='apply-now'>Apply Now <i class="bi bi-arrow-right"></i> </a>
-                                </div>
-                            </div>
-                            <div className="card p-3">
-                                <div className="image">
-                                    <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1744441026171-838505274.jpg&w=256&q=75" alt="" />
-                                </div>
-                                <div className="card-details">
-                                    <h2 className="card-heading">Digital media officer</h2>
-                                    <p className="card-sub">cn brothers international pvt.ltd</p>
-                                    <p className="card-sub-sub">C.N. Brothers International Pvt. Ltd., a B2B company..</p>
-                                    <div className="card-buttons">
-                                        <a href=""><i class="bi bi-clock"></i> 7 Days Left</a>
-                                        <a href=""><i class="bi bi-geo-alt-fill"></i> Kathmandu</a>
-                                        <a href=""><i class="bi bi-backpack4"></i> Full Time</a>
-                                    </div>
-                                    <a href=""  className='apply-now'>Apply Now <i class="bi bi-arrow-right"></i> </a>
-                                </div>
-                            </div>
-                            <div className="card p-3">
-                                <div className="image">
-                                    <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1744441026171-838505274.jpg&w=256&q=75" alt="" />
-                                </div>
-                                <div className="card-details">
-                                    <h2 className="card-heading">Digital media officer</h2>
-                                    <p className="card-sub">cn brothers international pvt.ltd</p>
-                                    <p className="card-sub-sub">C.N. Brothers International Pvt. Ltd., a B2B company..</p>
-                                    <div className="card-buttons">
-                                        <a href=""><i class="bi bi-clock"></i> 7 Days Left</a>
-                                        <a href=""><i class="bi bi-geo-alt-fill"></i> Kathmandu</a>
-                                        <a href=""><i class="bi bi-backpack4"></i> Full Time</a>
-                                    </div>
-                                    <a href=""  className='apply-now'>Apply Now <i class="bi bi-arrow-right"></i> </a>
-                                </div>
-                            </div>
-                            <div className="card p-3">
-                                <div className="image">
-                                    <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1744441026171-838505274.jpg&w=256&q=75" alt="" />
-                                </div>
-                                <div className="card-details">
-                                    <h2 className="card-heading">Digital media officer</h2>
-                                    <p className="card-sub">cn brothers international pvt.ltd</p>
-                                    <p className="card-sub-sub">C.N. Brothers International Pvt. Ltd., a B2B company..</p>
-                                    <div className="card-buttons">
-                                        <a href=""><i class="bi bi-clock"></i> 7 Days Left</a>
-                                        <a href=""><i class="bi bi-geo-alt-fill"></i> Kathmandu</a>
-                                        <a href=""><i class="bi bi-backpack4"></i> Full Time</a>
-                                    </div>
-                                    <a href=""  className='apply-now'>Apply Now <i class="bi bi-arrow-right"></i> </a>
-                                </div>
-                            </div>
-                            <div className="card p-3">
-                                <div className="image">
-                                    <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1744441026171-838505274.jpg&w=256&q=75" alt="" />
-                                </div>
-                                <div className="card-details">
-                                    <h2 className="card-heading">Digital media officer</h2>
-                                    <p className="card-sub">cn brothers international pvt.ltd</p>
-                                    <p className="card-sub-sub">C.N. Brothers International Pvt. Ltd., a B2B company..</p>
-                                    <div className="card-buttons">
-                                        <a href=""><i class="bi bi-clock"></i> 7 Days Left</a>
-                                        <a href=""><i class="bi bi-geo-alt-fill"></i> Kathmandu</a>
-                                        <a href=""><i class="bi bi-backpack4"></i> Full Time</a>
-                                    </div>
-                                    <a href=""  className='apply-now'>Apply Now <i class="bi bi-arrow-right"></i> </a>
-                                </div>
-                            </div>
-                            <div className="card p-3">
-                                <div className="image">
-                                    <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1744441026171-838505274.jpg&w=256&q=75" alt="" />
-                                </div>
-                                <div className="card-details">
-                                    <h2 className="card-heading">Digital media officer</h2>
-                                    <p className="card-sub">cn brothers international pvt.ltd</p>
-                                    <p className="card-sub-sub">C.N. Brothers International Pvt. Ltd., a B2B company..</p>
-                                    <div className="card-buttons">
-                                        <a href=""><i class="bi bi-clock"></i> 7 Days Left</a>
-                                        <a href=""><i class="bi bi-geo-alt-fill"></i> Kathmandu</a>
-                                        <a href=""><i class="bi bi-backpack4"></i> Full Time</a>
-                                    </div>
-                                    <a href=""  className='apply-now'>Apply Now <i class="bi bi-arrow-right"></i> </a>
-                                </div>
-                            </div>
-                            
-                           
-                        </div>
-                    </div>
-                </div>
-            </section>
+
         </>
     )
 }

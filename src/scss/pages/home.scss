@@ -72,6 +72,7 @@
     }
   }
 }
+
 .sub-banner-sub {
   margin-inline: auto;
 
@@ -138,6 +139,7 @@
     }
   }
 }
+
 .intern-ship {
   background-color: #faf9fb;
 
@@ -218,6 +220,7 @@
         .tab-col {
           .card {
             padding: 30px;
+
             img {
               height: 40%;
               width: 40%;
@@ -243,142 +246,328 @@
         }
       }
     }
+    .tab-pane-1 {
+      .grid-card {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        .card {
+          &:hover {
+            cursor: pointer;
+            box-shadow: 5px 5px 10px rgba(160, 159, 159, 0.3);
+          }
+          img {
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+          }
+          .card-details {
+            .card-heading {
+              font-size: 20px;
+              line-height: 28px;
+              color: rgb(32, 32, 32);
+              margin-top: 10px;
+              font-weight: 600;
+              margin-bottom: 0;
+            }
+            .card-sub {
+              font-size: 13px;
+              font-weight: 400;
+              line-height: 28px;
+              color: rgb(217, 61, 66);
+              text-transform: uppercase;
+              margin-bottom: 0;
+            }
+            .card-sub-sub {
+              font-size: 15px;
+              line-height: 23px;
+              font-weight: 400;
+              color: rgb(100, 100, 100);
+            }
+            .card-buttons {
+              display: flex;
+              gap: 10px;
+              margin-bottom: 20px;
+              a {
+                padding: 8px 10px;
+
+                font-size: 10px;
+                border-radius: 8px;
+                background-color: #f4f2f6;
+              }
+            }
+            .apply-now {
+              color: rgb(239, 68, 68);
+              font-size: 13px;
+              line-height: 20px;
+              font-weight: 600;
+              &:hover {
+                text-decoration: underline 1px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .tab-pane-2 {
+      .gird-card-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+
+        .card-2 {
+          border: 1px solid rgb(239, 235, 235);
+          border-radius: 10px;
+          &:hover {
+            cursor: pointer;
+            box-shadow: 5px 5px 10px rgba(160, 159, 159, 0.3);
+          }
+          img {
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+          }
+          .card-details-2 {
+            .card-heading-2 {
+              font-size: 20px;
+              line-height: 28px;
+              color: rgb(32, 32, 32);
+              margin-top: 10px;
+              font-weight: 600;
+              margin-bottom: 0;
+            }
+            .card-sub-2 {
+              font-size: 13px;
+              font-weight: 400;
+              line-height: 28px;
+              color: rgb(217, 61, 66);
+              text-transform: uppercase;
+              margin-bottom: 0;
+            }
+            .card-sub-sub-2 {
+              font-size: 15px;
+              line-height: 23px;
+              font-weight: 400;
+              color: rgb(100, 100, 100);
+            }
+            .card-buttons-2 {
+              display: flex;
+              gap: 10px;
+              margin-bottom: 20px;
+              a {
+                padding: 8px 10px;
+
+                font-size: 10px;
+                border-radius: 8px;
+                background-color: #f4f2f6;
+              }
+            }
+            .apply-now-2 {
+              color: rgb(239, 68, 68);
+              font-size: 13px;
+              line-height: 20px;
+              font-weight: 600;
+              &:hover {
+                text-decoration: underline 1px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .tab-pane-3 {
+      .gird-card-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+
+        .card-3 {
+          border: 1px solid rgb(239, 235, 235);
+          border-radius: 10px;
+          &:hover {
+            cursor: pointer;
+            box-shadow: 5px 5px 10px rgba(160, 159, 159, 0.3);
+          }
+          img {
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+          }
+          .card-details-3 {
+            .card-heading-3 {
+              font-size: 20px;
+              line-height: 28px;
+              color: rgb(32, 32, 32);
+              margin-top: 10px;
+              font-weight: 600;
+              margin-bottom: 0;
+            }
+            .card-sub-3 {
+              font-size: 13px;
+              font-weight: 400;
+              line-height: 28px;
+              color: rgb(217, 61, 66);
+              text-transform: uppercase;
+              margin-bottom: 0;
+            }
+            .card-sub-sub-3 {
+              font-size: 15px;
+              line-height: 23px;
+              font-weight: 400;
+              color: rgb(100, 100, 100);
+            }
+            .card-buttons-3 {
+              display: flex;
+              gap: 10px;
+              margin-bottom: 20px;
+              a {
+                padding: 8px 10px;
+
+                font-size: 10px;
+                border-radius: 8px;
+                background-color: #f4f2f6;
+              }
+            }
+            .apply-now-3 {
+              color: rgb(239, 68, 68);
+              font-size: 13px;
+              line-height: 20px;
+              font-weight: 600;
+              &:hover {
+                text-decoration: underline 1px;
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
-.tab-section-2 {
-  .grid-card {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-    .card {
-      &:hover{
-        
-        cursor: pointer;
+
+.dream-job{
+  background-color: #faf9fb;
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+
+    .right-content {
+      .content-heading {
+        font-size: 30px;
+        line-height: 36px;
+        font-weight: 700;
+      }
+      .content-subheading {
+        color: rgb(100, 100, 100);
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+      }
+      .tab-buttons {
+        .nav-tabs {
+          gap: 10px;
+          padding-bottom: 50px;
+          margin-top: 30px;
+          border-bottom: none;
+          .nav-item {
+            .nav-link {
+              padding: 12px 20px;
+              color: white;
+              font-family: var(--primary-font);
+              border-radius: 10px;
+              font-size: 16px;
+              line-height: 24px;
+              font-weight: 400;
+              background-color: #f3f4f6;
+              color: black;
+              &:active {
+                background-color: #d93d42;
+                color: white;
+              }
+            }
+          }
+        }
+      }
+    }
+    .left-content {
+      a {
+        color: red;
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 600;
+      }
+    }
+  }
+}
+.tab-content {
+  .tab-pane {
+    .react-multi-carousel-track {
+      display: flex;
+      gap: 20px;
+      margin-top: 2px;
+      margin-bottom: 20px;
+    }
+
+    .carousel-card {
+      border: 1px solid rgb(219, 216, 216);
+      padding: 15px;
+      width: fit-content;
+      border-radius: 10px;
+      transition: box-shadow 0.3s ease;
+      &:hover {
+        box-shadow: 5px 5px 10px rgba(160, 159, 159, 0.3);
       }
       img {
-        height: 70px;
-        width: 70px;
-        border-radius: 50%;
+        height: 20%;
+        width: 20%;
       }
-      .card-details {
-        .card-heading {
-          font-size: 20px;
-          line-height: 28px;
-          color: rgb(32, 32, 32);
-          margin-top: 10px;
-          font-weight: 600;
-          margin-bottom: 0;
-        }
-        .card-sub {
-          font-size: 13px;
-          font-weight: 400;
-          line-height: 28px;
-          color: rgb(217, 61, 66);
-          text-transform: uppercase;
-          margin-bottom: 0;
-        }
-        .card-sub-sub {
-          font-size: 15px;
-          line-height: 23px;
-          font-weight: 400;
+      h2 {
+        font-size: 17px;
+        line-height: 28px;
+        font-weight: 600;
+        color: rgb(23, 23, 31);
+      }
+      .white {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20px;
+        color: rgb(217, 61, 66);
+      }
+      .black {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20px;
+        color: rgb(100, 100, 100);
+      }
+      .carousel-buttons {
+        button {
+          font-size: 10px;
           color: rgb(100, 100, 100);
-        }
-        .card-buttons {
-          display: flex;
-          gap: 10px;
-          margin-bottom: 20px;
-          a {
-            padding: 8px 10px;
-
-            font-size: 10px;
-            border-radius: 8px;
-            background-color: #f4f2f6;
-          }
-        }
-        .apply-now {
-          color: rgb(239, 68, 68);
-          font-size: 13px;
-          line-height: 20px;
-          font-weight: 600;
-          &:hover{
-            text-decoration: underline 1px;
-          }
-        }
-      }
-    }
-  }
-}
-.dream-tab {
-  background-color: #faf9fb;
-  .tab-content {
-    .tab-pane {
-      .react-multi-carousel-track {
-        display: flex;
-        gap: 20px;
-        margin-top: 2px;
-        margin-bottom: 20px;
-      }
-
-      .carousel-card {
-        border: 1px solid rgb(219, 216, 216);
-        padding: 15px;
-        width: fit-content;
-        border-radius: 10px;
-        transition: box-shadow 0.3s ease;
-        &:hover {
-          box-shadow: 5px 5px 10px rgba(160, 159, 159, 0.3);
-        }
-        img {
-          height: 20%;
-          width: 20%;
-        }
-        h2 {
-          font-size: 17px;
-          line-height: 28px;
-          font-weight: 600;
-          color: rgb(23, 23, 31);
-        }
-        .white {
-          font-size: 13px;
           font-weight: 400;
           line-height: 20px;
-          color: rgb(217, 61, 66);
-        }
-        .black {
-          font-size: 12px;
-          font-weight: 400;
-          line-height: 20px;
-          font-size: 13px;
-          font-weight: 400;
-          line-height: 20px;
-          color: rgb(100, 100, 100);
-        }
-        .carousel-buttons {
-          button {
-            font-size: 10px;
-            color: rgb(100, 100, 100);
-            font-weight: 400;
-            line-height: 20px;
-            border: none;
-            padding: 6px;
-            border-radius: 5px;
-          }
-        }
-        .apply {
           border: none;
-          color: rgb(239, 68, 68);
-          margin-top: 10px;
-          background-color: transparent;
-          font-size: 12px;
-          font-weight: 600;
-          &:hover {
-            text-decoration: underline;
-          }
+          padding: 6px;
+          border-radius: 5px;
+        }
+      }
+      .apply {
+        border: none;
+        color: rgb(239, 68, 68);
+        margin-top: 10px;
+        background-color: transparent;
+        font-size: 12px;
+        font-weight: 600;
+        &:hover {
+          text-decoration: underline;
         }
       }
     }
   }
 }
+
 .blog-section {
   background-color: var(--primary-color);
   .blog-heading {

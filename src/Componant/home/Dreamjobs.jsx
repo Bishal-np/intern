@@ -4,7 +4,7 @@ import "react-multi-carousel/lib/styles.css";
 
 const responsive = {
     superLargeDesktop: {
-     
+
         breakpoint: { max: 4000, min: 3000 },
         items: 5
     },
@@ -26,7 +26,7 @@ const responsive = {
 function Dreamjobs() {
     return (
         <>
-            <section className='intern-ship'>
+            <section className='dream-job'>
                 <div className="container">
                     <div className="content py-5">
                         <div className="right-content">
@@ -35,7 +35,7 @@ function Dreamjobs() {
                             <div className="tab-buttons">
                                 <ul className="nav nav-tabs" id="myTab" role="tablist">
                                     <li class="nav-item" role="presentation">
-                                        <button className="nav-link active bg-danger text-light" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Featured Internship</button>
+                                        <button className="nav-link active bg-danger text-light" id="home-tab-1" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Featured Internship</button>
                                     </li>
                                     <li className="nav-item" role="presentation">
                                         <button className="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Nearest</button>
@@ -55,7 +55,7 @@ function Dreamjobs() {
             </section >
             <section className='dream-tab'>
                 <div className="container">
-                    <div className="tab-content" id="myTabContent">
+                    <div className="tab-content" id="myTabContent-dream">
                         <div className="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
                             <Carousel responsive={responsive}>
                                 <div className='carousel-card'>
@@ -157,11 +157,312 @@ function Dreamjobs() {
                                     </div>
                                 </div>
                             </Carousel>
-
                         </div>
-                        <div className="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...</div>
-                        <div className="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
-                        <div className="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...</div>
+                        <div className="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                            <Carousel responsive={responsive}>
+                                <div className='carousel-card'>
+                                    <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1704219829366-277175250.png&w=256&q=75" alt="" />
+                                    <div className="carausel-content">
+                                        <h2>Social Media Manager- ID539</h2>
+                                        <p className='white'>TALENTSATHI</p>
+                                        <p className="black">Our client is looking for...</p>
+                                        <div className="carousel-buttons d-flex gap-3">
+                                            <button className="button"><i class="bi bi-clock"></i> 4 days left<a href=""></a></button>
+                                            <button className="button"><a href=""><i class="bi bi-geo-alt"></i> kathmandu</a></button>
+                                            <button className="button"><a href=""><i class="bi bi-backpack2-fill"></i> Full Time</a></button>
+                                        </div>
+                                        <button className="apply">Apply Now <i class="bi bi-arrow-right"></i></button>
+                                    </div>
+                                </div>
+                                <div className='carousel-card'>
+                                    <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1704219829366-277175250.png&w=256&q=75" alt="" />
+                                    <div className="carausel-content">
+                                        <h2>Mid-Level Django Developer</h2>
+                                        <p className='white'>TALENTSATHI</p>
+                                        <p className="black">Our client is looking for...</p>
+                                        <div className="carousel-buttons d-flex gap-3">
+                                            <button className="button"><i class="bi bi-clock"></i> 4 days left<a href=""></a></button>
+                                            <button className="button"><a href=""><i class="bi bi-geo-alt"></i> kathmandu</a></button>
+                                            <button className="button"><a href=""><i class="bi bi-backpack2-fill"></i> Full Time</a></button>
+                                        </div>
+                                        <button className="apply">Apply Now <i class="bi bi-arrow-right"></i></button>
+                                    </div>
+                                </div>
+                                <div className='carousel-card'>
+                                    <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1704219829366-277175250.png&w=256&q=75" alt="" />
+                                    <div className="carausel-content">
+                                        <h2>Social Media Manager- ID539</h2>
+                                        <p className='white'>TALENTSATHI</p>
+                                        <p className="black">Our client is looking for...</p>
+                                        <div className="carousel-buttons d-flex gap-3">
+                                            <button className="button"><i class="bi bi-clock"></i> 4 days left<a href=""></a></button>
+                                            <button className="button"><a href=""><i class="bi bi-geo-alt"></i> kathmandu</a></button>
+                                            <button className="button"><a href=""><i class="bi bi-backpack2-fill"></i> Full Time</a></button>
+                                        </div>
+                                        <button className="apply">Apply Now <i class="bi bi-arrow-right"></i></button>
+                                    </div>
+                                </div>
+                                <div className='carousel-card'>
+                                    <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1704219829366-277175250.png&w=256&q=75" alt="" />
+                                    <div className="carausel-content">
+                                        <h2>WordPress, WooCommerce & Shopify developer -ID538</h2>
+                                        <p className='white'>TALENTSATHI</p>
+                                        <p className="black">Our client is looking for...</p>
+                                        <div className="carousel-buttons d-flex gap-3">
+                                            <button className="button"><i class="bi bi-clock"></i> 4 days left<a href=""></a></button>
+                                            <button className="button"><a href=""><i class="bi bi-geo-alt"></i> kathmandu</a></button>
+                                            <button className="button"><a href=""><i class="bi bi-backpack2-fill"></i> Full Time</a></button>
+                                        </div>
+                                        <button className="apply">Apply Now <i class="bi bi-arrow-right"></i></button>
+                                    </div>
+                                </div>
+                                <div className='carousel-card'>
+                                    <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1704219829366-277175250.png&w=256&q=75" alt="" />
+                                    <div className="carausel-content">
+                                        <h2>Social Media Manager- ID539</h2>
+                                        <p className='white'>TALENTSATHI</p>
+                                        <p className="black">Our client is looking for...</p>
+                                        <div className="carousel-buttons d-flex gap-3">
+                                            <button className="button"><i class="bi bi-clock"></i> 4 days left<a href=""></a></button>
+                                            <button className="button"><a href=""><i class="bi bi-geo-alt"></i> kathmandu</a></button>
+                                            <button className="button"><a href=""><i class="bi bi-backpack2-fill"></i> Full Time</a></button>
+                                        </div>
+                                        <button className="apply">Apply Now <i class="bi bi-arrow-right"></i></button>
+                                    </div>
+                                </div>
+                                <div className='carousel-card'>
+                                    <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1704219829366-277175250.png&w=256&q=75" alt="" />
+                                    <div className="carausel-content">
+                                        <h2>Mid-Level Django Developer</h2>
+                                        <p className='white'>TALENTSATHI</p>
+                                        <p className="black">Our client is looking for...</p>
+                                        <div className="carousel-buttons d-flex gap-3">
+                                            <button className="button"><i class="bi bi-clock"></i> 4 days left<a href=""></a></button>
+                                            <button className="button"><a href=""><i class="bi bi-geo-alt"></i> kathmandu</a></button>
+                                            <button className="button"><a href=""><i class="bi bi-backpack2-fill"></i> Full Time</a></button>
+                                        </div>
+                                        <button className="apply">Apply Now <i class="bi bi-arrow-right"></i></button>
+                                    </div>
+                                </div>
+                                <div className='carousel-card'>
+                                    <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1704219829366-277175250.png&w=256&q=75" alt="" />
+                                    <div className="carausel-content">
+                                        <h2>WordPress, WooCommerce & Shopify developer -ID538</h2>
+                                        <p className='white'>TALENTSATHI</p>
+                                        <p className="black">Our client is looking for...</p>
+                                        <div className="carousel-buttons d-flex gap-3">
+                                            <button className="button"><i class="bi bi-clock"></i> 4 days left<a href=""></a></button>
+                                            <button className="button"><a href=""><i class="bi bi-geo-alt"></i> kathmandu</a></button>
+                                            <button className="button"><a href=""><i class="bi bi-backpack2-fill"></i> Full Time</a></button>
+                                        </div>
+                                        <button className="apply">Apply Now <i class="bi bi-arrow-right"></i></button>
+                                    </div>
+                                </div>
+                            </Carousel></div>
+                        <div className="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                            <Carousel responsive={responsive}>
+                                <div className='carousel-card'>
+                                    <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1704219829366-277175250.png&w=256&q=75" alt="" />
+                                    <div className="carausel-content">
+                                        <h2>Mid-Level Django Developer</h2>
+                                        <p className='white'>TALENTSATHI</p>
+                                        <p className="black">Our client is looking for...</p>
+                                        <div className="carousel-buttons d-flex gap-3">
+                                            <button className="button"><i class="bi bi-clock"></i> 4 days left<a href=""></a></button>
+                                            <button className="button"><a href=""><i class="bi bi-geo-alt"></i> kathmandu</a></button>
+                                            <button className="button"><a href=""><i class="bi bi-backpack2-fill"></i> Full Time</a></button>
+                                        </div>
+                                        <button className="apply">Apply Now <i class="bi bi-arrow-right"></i></button>
+                                    </div>
+                                </div>
+                                <div className='carousel-card'>
+                                    <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1704219829366-277175250.png&w=256&q=75" alt="" />
+                                    <div className="carausel-content">
+                                        <h2>Mid-Level Django Developer</h2>
+                                        <p className='white'>TALENTSATHI</p>
+                                        <p className="black">Our client is looking for...</p>
+                                        <div className="carousel-buttons d-flex gap-3">
+                                            <button className="button"><i class="bi bi-clock"></i> 4 days left<a href=""></a></button>
+                                            <button className="button"><a href=""><i class="bi bi-geo-alt"></i> kathmandu</a></button>
+                                            <button className="button"><a href=""><i class="bi bi-backpack2-fill"></i> Full Time</a></button>
+                                        </div>
+                                        <button className="apply">Apply Now <i class="bi bi-arrow-right"></i></button>
+                                    </div>
+                                </div>
+                                <div className='carousel-card'>
+                                    <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1704219829366-277175250.png&w=256&q=75" alt="" />
+                                    <div className="carausel-content">
+                                        <h2>Mid-Level Django Developer</h2>
+                                        <p className='white'>TALENTSATHI</p>
+                                        <p className="black">Our client is looking for...</p>
+                                        <div className="carousel-buttons d-flex gap-3">
+                                            <button className="button"><i class="bi bi-clock"></i> 4 days left<a href=""></a></button>
+                                            <button className="button"><a href=""><i class="bi bi-geo-alt"></i> kathmandu</a></button>
+                                            <button className="button"><a href=""><i class="bi bi-backpack2-fill"></i> Full Time</a></button>
+                                        </div>
+                                        <button className="apply">Apply Now <i class="bi bi-arrow-right"></i></button>
+                                    </div>
+                                </div>
+                                <div className='carousel-card'>
+                                    <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1704219829366-277175250.png&w=256&q=75" alt="" />
+                                    <div className="carausel-content">
+                                        <h2>Mid-Level Django Developer</h2>
+                                        <p className='white'>TALENTSATHI</p>
+                                        <p className="black">Our client is looking for...</p>
+                                        <div className="carousel-buttons d-flex gap-3">
+                                            <button className="button"><i class="bi bi-clock"></i> 4 days left<a href=""></a></button>
+                                            <button className="button"><a href=""><i class="bi bi-geo-alt"></i> kathmandu</a></button>
+                                            <button className="button"><a href=""><i class="bi bi-backpack2-fill"></i> Full Time</a></button>
+                                        </div>
+                                        <button className="apply">Apply Now <i class="bi bi-arrow-right"></i></button>
+                                    </div>
+                                </div>
+                                <div className='carousel-card'>
+                                    <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1704219829366-277175250.png&w=256&q=75" alt="" />
+                                    <div className="carausel-content">
+                                        <h2>Mid-Level Django Developer</h2>
+                                        <p className='white'>TALENTSATHI</p>
+                                        <p className="black">Our client is looking for...</p>
+                                        <div className="carousel-buttons d-flex gap-3">
+                                            <button className="button"><i class="bi bi-clock"></i> 4 days left<a href=""></a></button>
+                                            <button className="button"><a href=""><i class="bi bi-geo-alt"></i> kathmandu</a></button>
+                                            <button className="button"><a href=""><i class="bi bi-backpack2-fill"></i> Full Time</a></button>
+                                        </div>
+                                        <button className="apply">Apply Now <i class="bi bi-arrow-right"></i></button>
+                                    </div>
+                                </div>
+                                <div className='carousel-card'>
+                                    <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1704219829366-277175250.png&w=256&q=75" alt="" />
+                                    <div className="carausel-content">
+                                        <h2>Mid-Level Django Developer</h2>
+                                        <p className='white'>TALENTSATHI</p>
+                                        <p className="black">Our client is looking for...</p>
+                                        <div className="carousel-buttons d-flex gap-3">
+                                            <button className="button"><i class="bi bi-clock"></i> 4 days left<a href=""></a></button>
+                                            <button className="button"><a href=""><i class="bi bi-geo-alt"></i> kathmandu</a></button>
+                                            <button className="button"><a href=""><i class="bi bi-backpack2-fill"></i> Full Time</a></button>
+                                        </div>
+                                        <button className="apply">Apply Now <i class="bi bi-arrow-right"></i></button>
+                                    </div>
+                                </div>
+                                <div className='carousel-card'>
+                                    <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1704219829366-277175250.png&w=256&q=75" alt="" />
+                                    <div className="carausel-content">
+                                        <h2>Mid-Level Django Developer</h2>
+                                        <p className='white'>TALENTSATHI</p>
+                                        <p className="black">Our client is looking for...</p>
+                                        <div className="carousel-buttons d-flex gap-3">
+                                            <button className="button"><i class="bi bi-clock"></i> 4 days left<a href=""></a></button>
+                                            <button className="button"><a href=""><i class="bi bi-geo-alt"></i> kathmandu</a></button>
+                                            <button className="button"><a href=""><i class="bi bi-backpack2-fill"></i> Full Time</a></button>
+                                        </div>
+                                        <button className="apply">Apply Now <i class="bi bi-arrow-right"></i></button>
+                                    </div>
+                                </div>
+                            </Carousel>
+                        </div>
+                        <div className="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">
+                            <Carousel responsive={responsive}>
+                                <div className='carousel-card'>
+                                    <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1704219829366-277175250.png&w=256&q=75" alt="" />
+                                    <div className="carausel-content">
+                                        <h2>Mid-Level Django Developer</h2>
+                                        <p className='white'>TALENTSATHI</p>
+                                        <p className="black">Our client is looking for...</p>
+                                        <div className="carousel-buttons d-flex gap-3">
+                                            <button className="button"><i class="bi bi-clock"></i> 4 days left<a href=""></a></button>
+                                            <button className="button"><a href=""><i class="bi bi-geo-alt"></i> kathmandu</a></button>
+                                            <button className="button"><a href=""><i class="bi bi-backpack2-fill"></i> Full Time</a></button>
+                                        </div>
+                                        <button className="apply">Apply Now <i class="bi bi-arrow-right"></i></button>
+                                    </div>
+                                </div>
+                                <div className='carousel-card'>
+                                    <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1704219829366-277175250.png&w=256&q=75" alt="" />
+                                    <div className="carausel-content">
+                                        <h2>Mid-Level Django Developer</h2>
+                                        <p className='white'>TALENTSATHI</p>
+                                        <p className="black">Our client is looking for...</p>
+                                        <div className="carousel-buttons d-flex gap-3">
+                                            <button className="button"><i class="bi bi-clock"></i> 4 days left<a href=""></a></button>
+                                            <button className="button"><a href=""><i class="bi bi-geo-alt"></i> kathmandu</a></button>
+                                            <button className="button"><a href=""><i class="bi bi-backpack2-fill"></i> Full Time</a></button>
+                                        </div>
+                                        <button className="apply">Apply Now <i class="bi bi-arrow-right"></i></button>
+                                    </div>
+                                </div>
+                                <div className='carousel-card'>
+                                    <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1704219829366-277175250.png&w=256&q=75" alt="" />
+                                    <div className="carausel-content">
+                                        <h2>Mid-Level Django Developer</h2>
+                                        <p className='white'>TALENTSATHI</p>
+                                        <p className="black">Our client is looking for...</p>
+                                        <div className="carousel-buttons d-flex gap-3">
+                                            <button className="button"><i class="bi bi-clock"></i> 4 days left<a href=""></a></button>
+                                            <button className="button"><a href=""><i class="bi bi-geo-alt"></i> kathmandu</a></button>
+                                            <button className="button"><a href=""><i class="bi bi-backpack2-fill"></i> Full Time</a></button>
+                                        </div>
+                                        <button className="apply">Apply Now <i class="bi bi-arrow-right"></i></button>
+                                    </div>
+                                </div>
+                                <div className='carousel-card'>
+                                    <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1704219829366-277175250.png&w=256&q=75" alt="" />
+                                    <div className="carausel-content">
+                                        <h2>Mid-Level Django Developer</h2>
+                                        <p className='white'>TALENTSATHI</p>
+                                        <p className="black">Our client is looking for...</p>
+                                        <div className="carousel-buttons d-flex gap-3">
+                                            <button className="button"><i class="bi bi-clock"></i> 4 days left<a href=""></a></button>
+                                            <button className="button"><a href=""><i class="bi bi-geo-alt"></i> kathmandu</a></button>
+                                            <button className="button"><a href=""><i class="bi bi-backpack2-fill"></i> Full Time</a></button>
+                                        </div>
+                                        <button className="apply">Apply Now <i class="bi bi-arrow-right"></i></button>
+                                    </div>
+                                </div>
+                                <div className='carousel-card'>
+                                    <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1704219829366-277175250.png&w=256&q=75" alt="" />
+                                    <div className="carausel-content">
+                                        <h2>Mid-Level Django Developer</h2>
+                                        <p className='white'>TALENTSATHI</p>
+                                        <p className="black">Our client is looking for...</p>
+                                        <div className="carousel-buttons d-flex gap-3">
+                                            <button className="button"><i class="bi bi-clock"></i> 4 days left<a href=""></a></button>
+                                            <button className="button"><a href=""><i class="bi bi-geo-alt"></i> kathmandu</a></button>
+                                            <button className="button"><a href=""><i class="bi bi-backpack2-fill"></i> Full Time</a></button>
+                                        </div>
+                                        <button className="apply">Apply Now <i class="bi bi-arrow-right"></i></button>
+                                    </div>
+                                </div>
+                                <div className='carousel-card'>
+                                    <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1704219829366-277175250.png&w=256&q=75" alt="" />
+                                    <div className="carausel-content">
+                                        <h2>Mid-Level Django Developer</h2>
+                                        <p className='white'>TALENTSATHI</p>
+                                        <p className="black">Our client is looking for...</p>
+                                        <div className="carousel-buttons d-flex gap-3">
+                                            <button className="button"><i class="bi bi-clock"></i> 4 days left<a href=""></a></button>
+                                            <button className="button"><a href=""><i class="bi bi-geo-alt"></i> kathmandu</a></button>
+                                            <button className="button"><a href=""><i class="bi bi-backpack2-fill"></i> Full Time</a></button>
+                                        </div>
+                                        <button className="apply">Apply Now <i class="bi bi-arrow-right"></i></button>
+                                    </div>
+                                </div>
+                                <div className='carousel-card'>
+                                    <img src="https://internsathi.com/_next/image?url=https%3A%2F%2Fapi.internsathi.com%2Fuploads%2F1704219829366-277175250.png&w=256&q=75" alt="" />
+                                    <div className="carausel-content">
+                                        <h2>Mid-Level Django Developer</h2>
+                                        <p className='white'>TALENTSATHI</p>
+                                        <p className="black">Our client is looking for...</p>
+                                        <div className="carousel-buttons d-flex gap-3">
+                                            <button className="button"><i class="bi bi-clock"></i> 4 days left<a href=""></a></button>
+                                            <button className="button"><a href=""><i class="bi bi-geo-alt"></i> kathmandu</a></button>
+                                            <button className="button"><a href=""><i class="bi bi-backpack2-fill"></i> Full Time</a></button>
+                                        </div>
+                                        <button className="apply">Apply Now <i class="bi bi-arrow-right"></i></button>
+                                    </div>
+                                </div>
+                            </Carousel>
+                        </div>
                     </div>
                 </div>
 

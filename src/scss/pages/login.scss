@@ -1,0 +1,116 @@
+section {
+  background-color: #f2f4f7;
+  height: 600px;
+  .login-form {
+    border: none;
+    border-radius: 10px;
+    margin: 40px auto;
+    width: 50%;
+    
+
+    background-color: white;
+
+    .form-details {
+      padding: 10px 50px;
+      display: block;
+      .form-heading {
+        padding: 20px;
+        text-align: center;
+        font-size: 27px;
+        font-weight: 500;
+        line-height: 48px;
+        .intern {
+          color: var(--ternary-color);
+          display: inline;
+        }
+      }
+
+      .email-title {
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;
+      }
+      .email {
+        display: block;
+        width: 100%;
+        margin-top: 7px;
+        padding: 8px;
+        border-radius: 5px;
+        border: 1px solid rgb(207, 203, 203);
+        outline: none;
+      }
+      .password-title {
+        display: block;
+        margin-top: 10px;
+      }
+      .password {
+        display: block;
+        width: 100%;
+        margin-top: 7px;
+        padding: 8px;
+        border-radius: 5px;
+        border: 1px solid rgb(207, 203, 203);
+        outline: none;
+      }
+      .checkboxx {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+
+        .check {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          gap: 5px;
+          .checkbox {
+            background-color: var(--ternary-color);
+          }
+        }
+      }
+      .signin {
+        width: 100%;
+        margin-top: 15px;
+        padding: 10px;
+        background-color: var(--ternary-color);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 12px;
+        font-weight: 400;
+        &:hover {
+          background-color: rgb(223, 37, 37);
+        }
+      }
+    }
+    .google {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid rgb(234, 228, 228);
+      background-color: transparent;
+      border-radius: 5px;
+      &:hover {
+        box-shadow: 5px 5px 10px rgba(160, 159, 159, 0.3);
+      }
+      .google-icon {
+        font-size: 20px;
+        margin-right: 5px;
+      }
+      .span-items {
+        font-size: 12px;
+        color: rgb(133, 129, 129);
+      }
+    }
+    .register {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 0;
+      color: rgb(168, 164, 164);
+    }
+    .links {
+      text-align: center;
+      color: var(--ternary-color);
+      font-weight: 500;
+    }
+  }
+}
